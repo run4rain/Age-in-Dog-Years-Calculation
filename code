@@ -1,0 +1,25 @@
+// Set variable of age
+const myAge = 34;
+
+// Set variable of early age
+let earlyYears = 2;
+earlyYears *= 10.5;
+
+// Set variable of later age
+let laterYears = myAge - 2;
+
+// Dog years calculated from later age
+laterYears *= 4;
+
+// Print early age and later age
+console.log(earlyYears);
+console.log(laterYears);
+
+// Set variable of age in dog years
+let myAgeInDogYears = earlyYears + laterYears;
+
+// Set name variable
+const myName = 'Catherine'.toLowerCase();
+
+// Display name, age in dog years using string interpolation
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`)
